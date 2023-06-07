@@ -1,0 +1,5 @@
+name,RollNo,Mark1
+'Joel',1,50
+'John',2,68
+'Sam',3,95
+'Sanjay',4,85

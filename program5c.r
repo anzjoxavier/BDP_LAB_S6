@@ -1,0 +1,7 @@
+df = read.table("/home/dalab13/anz13/data4.txt", sep=" ", header = FALSE)
+print("Obtained Dataframe:")
+print(df)
+print("Maximum of each rows:")
+print(apply(df,1,max))
+print("Maximum of each column:")
+print(apply(df,2,max))

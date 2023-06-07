@@ -1,0 +1,16 @@
+my_data = read.table("/home/dalab13/anz13/data6.txt", sep="", header = FALSE)
+print(my_data)
+x=my_data[1]
+y=my_data[2]
+print("Covariance of x and y with pearson method:")
+print(cov(x, y, method = "pearson"))
+print("Covariance of x and y with kendall method:")
+print(cov(x, y, method = "kendall"))
+print("Covariance of x and y with spearman method:")
+print(cov(x, y, method = "spearman"))
+print("Corelation of x and y with pearson method:")
+print(cor(x, y, method = "pearson"))
+print("Corelation of x and y with kendall method:")
+print(cor(x, y, method = "kendall"))
+print("Corelation of x and y with spearman method:")
+print(cor(x, y, method = "spearman"))
